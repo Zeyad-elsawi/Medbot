@@ -1,19 +1,6 @@
-import React, { useState, useRef, FormEvent } from 'react';
+import React, { useState, useRef, type FormEvent } from 'react';
 import { Upload, Activity, ShieldAlert, FileText, CheckCircle2, ChevronRight } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-
-// Types
-interface SSEStatus {
-  type: 'status';
-  message: string;
-  step: number;
-  total_steps: number;
-}
-
-interface SSEResult {
-  type: 'result';
-  payload: any;
-}
 
 export default function App() {
   const [file, setFile] = useState<File | null>(null);
