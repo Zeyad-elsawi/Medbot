@@ -1,4 +1,4 @@
-name: Deploy to Koyeb
+name: Deploy to HuggingFace Spaces
 
 on:
   push:
@@ -6,21 +6,36 @@ on:
       - main
     paths:
       - 'backend/**'
-      - 'koyeb.yaml'
 
 jobs:
   deploy-backend:
-    name: Trigger Koyeb Redeploy
+    name: Sync Backend to HuggingFace Space
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger Koyeb Deploy via API
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push backend to HuggingFace Spaces
         env:
-          KOYEB_API_TOKEN: ${{ secrets.KOYEB_API_TOKEN }}
-          KOYEB_SERVICE_ID: ${{ secrets.KOYEB_SERVICE_ID }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE: ${{ secrets.HF_SPACE }}   # e.g., "YourUsername/clinical-ai-copilot"
         run: |
-          curl -s -X POST \
-            "https://app.koyeb.com/v1/services/${KOYEB_SERVICE_ID}/redeploy" \
-            -H "Authorization: Bearer ${KOYEB_API_TOKEN}" \
-            -H "Content-Type: application/json"
-          echo "✅ Koyeb redeploy triggered"
+          # Configure git identity for the push
+          git config --global user.email "ci-deploy@github.com"
+          git config --global user.name "GitHub CI"
+
+          # Clone the HuggingFace Space repo
+          git clone https://huggingface.co/spaces/$HF_SPACE hf_space
+          cd hf_space
+
+          # Sync the backend folder contents to the HF Space
+          rsync -av --delete ../backend/ ./
+
+          # Commit and push the changes
+          git add -A
+          git diff --staged --quiet || git commit -m "Auto-deploy from GitHub: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push https://user:$HF_TOKEN@huggingface.co/spaces/$HF_SPACE main
