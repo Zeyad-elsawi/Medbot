@@ -1,0 +1,26 @@
+name: clinical-ai-copilot-backend
+
+services:
+  - name: backend
+    type: web
+    git:
+      repository: https://github.com/Zeyad-elsawi/Medbot
+      branch: main
+    docker:
+      dockerfile: backend/Dockerfile
+      context: backend
+    ports:
+      - port: 8000
+        protocol: http
+    env:
+      - key: ENVIRONMENT
+        value: production
+      - key: PYTHONPATH
+        value: /app
+      - key: CORS_ORIGINS
+        value: "https://medbot-jet.vercel.app,http://localhost:5173"
+      # Set these secrets manually in the Koyeb dashboard:
+      # QDRANT_URL, QDRANT_API_KEY, HUGGINGFACE_TOKEN, GOOGLE_API_KEY
+    routes:
+      - path: /
+        port: 8000

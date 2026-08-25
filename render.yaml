@@ -9,7 +9,7 @@ services:
 
     envVars:
       - key: QDRANT_URL
-        sync: false  # Set manually in Render dashboard
+        sync: false
       - key: QDRANT_API_KEY
         sync: false
       - key: HUGGINGFACE_TOKEN

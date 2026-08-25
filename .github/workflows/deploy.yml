@@ -1,4 +1,4 @@
-name: Deploy to Render
+name: Deploy to Koyeb
 
 on:
   push:
@@ -6,21 +6,21 @@ on:
       - main
     paths:
       - 'backend/**'
-      - 'render.yaml'
-      - 'docker-compose.yml'
+      - 'koyeb.yaml'
 
 jobs:
   deploy-backend:
-    name: Trigger Render Deploy
+    name: Trigger Koyeb Redeploy
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Trigger Render Deploy Hook
+      - name: Trigger Koyeb Deploy via API
         env:
-          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+          KOYEB_API_TOKEN: ${{ secrets.KOYEB_API_TOKEN }}
+          KOYEB_SERVICE_ID: ${{ secrets.KOYEB_SERVICE_ID }}
         run: |
-          curl -X POST "$RENDER_DEPLOY_HOOK_URL"
-          echo "✅ Render deploy triggered successfully"
+          curl -s -X POST \
+            "https://app.koyeb.com/v1/services/${KOYEB_SERVICE_ID}/redeploy" \
+            -H "Authorization: Bearer ${KOYEB_API_TOKEN}" \
+            -H "Content-Type: application/json"
+          echo "✅ Koyeb redeploy triggered"
