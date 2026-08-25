@@ -1,0 +1,25 @@
+description,code,category,body_part
+Pneumonia unspecified organism,J18.9,Respiratory,chest
+Lobar pneumonia unspecified organism,J18.1,Respiratory,chest
+Community acquired pneumonia,J18.0,Respiratory,chest
+Chronic obstructive pulmonary disease,J44.9,Respiratory,chest
+COPD with acute exacerbation,J44.1,Respiratory,chest
+Acute bronchitis,J20.9,Respiratory,chest
+Chronic bronchitis,J42,Respiratory,chest
+Pleural effusion,J90,Respiratory,chest
+Pneumothorax spontaneous,J93.1,Respiratory,chest
+Pulmonary edema,J81.1,Respiratory,chest
+Cardiomegaly,I51.7,Cardiovascular,chest
+Congestive heart failure,I50.9,Cardiovascular,chest
+Atelectasis,J98.11,Respiratory,chest
+Pulmonary fibrosis,J84.10,Respiratory,chest
+Lung mass,R91.1,Respiratory,chest
+Tuberculosis of lung,A15.0,Infectious,chest
+Fracture of wrist,S62.001A,Musculoskeletal,wrist
+Fracture of elbow,S52.001A,Musculoskeletal,elbow
+Shoulder impingement,M75.1,Musculoskeletal,shoulder
+Osteoarthritis of knee,M17.11,Musculoskeletal,knee
+Scoliosis,M41.20,Musculoskeletal,spine
+Lumbar disc degeneration,M51.16,Musculoskeletal,spine
+Carpal tunnel syndrome,G56.00,Neurological,wrist
+Rotator cuff tear,M75.10,Musculoskeletal,shoulder

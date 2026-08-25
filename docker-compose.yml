@@ -1,0 +1,40 @@
+version: "3.9"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Production/Deployment Stack for Clinical AI Copilot
+# Run: docker-compose up --build -d
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+  # FastAPI Backend + LangGraph AI Orchestrator + FastMCP
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      # Data persistence for Qdrant uploads and generated PDFs
+      - ./backend/data:/app/data
+    env_file:
+      - ./backend/.env
+    environment:
+      - ENVIRONMENT=production
+      # Important for fastmcp subprocess to locate local tools
+      - PYTHONPATH=/app
+    restart: unless-stopped
+
+  # React Frontend (Vite) + Nginx
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+# Note: Qdrant vector database is hosted on Qdrant Cloud.
+# Ollama models (llava:7b, mistral:7b) should be run natively on the host 
+# machine to ensure proper GPU acceleration.

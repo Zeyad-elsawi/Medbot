@@ -1,0 +1,16 @@
+drug_1,drug_2,severity,description,recommendation
+Warfarin,Aspirin,HIGH,Increased bleeding risk,Avoid combination or monitor INR closely
+Warfarin,Ibuprofen,HIGH,Increased bleeding and GI risk,Use alternative analgesic
+Metformin,Contrast Dye,HIGH,Risk of lactic acidosis,Hold metformin 48h before contrast
+Lisinopril,Potassium,MODERATE,Risk of hyperkalemia,Monitor potassium levels
+Amoxicillin,Warfarin,MODERATE,May enhance anticoagulant effect,Monitor INR
+Ciprofloxacin,Theophylline,HIGH,Increased theophylline toxicity,Reduce theophylline dose
+Prednisone,Ibuprofen,MODERATE,Increased GI bleeding risk,Use with caution
+Furosemide,Gentamicin,HIGH,Increased ototoxicity risk,Avoid if possible
+Digoxin,Amiodarone,HIGH,Increased digoxin toxicity,Reduce digoxin dose by 50%
+Clopidogrel,Omeprazole,MODERATE,Reduced antiplatelet effect,Use pantoprazole instead
+Metoprolol,Verapamil,HIGH,Risk of bradycardia and heart block,Avoid combination
+Azithromycin,Warfarin,MODERATE,May increase INR,Monitor INR closely
+Sildenafil,Nitrates,HIGH,Severe hypotension risk,Absolute contraindication
+Tramadol,SSRIs,MODERATE,Risk of serotonin syndrome,Monitor for serotonin symptoms
+Theophylline,Caffeine,LOW,Additive CNS stimulation,Limit caffeine intake

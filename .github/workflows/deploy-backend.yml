@@ -1,0 +1,26 @@
+name: Deploy Backend to HuggingFace Spaces
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'backend/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to HuggingFace Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.email "ci@medbot.dev"
+          git config --global user.name "MedBot CI"
+          git remote add space https://user:$HF_TOKEN@huggingface.co/spaces/YOUR_HF_USERNAME/medbot-backend
+          git subtree push --prefix=backend space main

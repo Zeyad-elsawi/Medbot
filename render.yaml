@@ -1,0 +1,24 @@
+services:
+  # FastAPI Backend deployed as a Docker web service
+  - type: web
+    name: clinical-ai-copilot-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+
+    envVars:
+      - key: QDRANT_URL
+        sync: false  # Set manually in Render dashboard
+      - key: QDRANT_API_KEY
+        sync: false
+      - key: HUGGINGFACE_TOKEN
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: ENVIRONMENT
+        value: production
+      - key: PYTHONPATH
+        value: /app
+      - key: CORS_ORIGINS
+        sync: false  # Set to your Vercel URL after deploy

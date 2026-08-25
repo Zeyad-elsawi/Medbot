@@ -1,0 +1,1400 @@
+[
+  {
+    "uid": "CXR3037",
+    "image_filename": "CXR3037_IM-1410-1001.png",
+    "image_url": "/imgs/512/230/3037/CXR3037_IM-1410-1001.png",
+    "findings": [
+      "normal"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "normal"
+  },
+  {
+    "uid": "CXR3037",
+    "image_filename": "CXR3037_IM-1410-2001.png",
+    "image_url": "/imgs/512/230/3037/CXR3037_IM-1410-2001.png",
+    "findings": [
+      "normal"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "normal"
+  },
+  {
+    "uid": "CXR2487",
+    "image_filename": "CXR2487_IM-1014-1001.png",
+    "image_url": "/imgs/512/81/2487/CXR2487_IM-1014-1001.png",
+    "findings": [
+      "normal"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "normal"
+  },
+  {
+    "uid": "CXR2487",
+    "image_filename": "CXR2487_IM-1014-2001.png",
+    "image_url": "/imgs/512/81/2487/CXR2487_IM-1014-2001.png",
+    "findings": [
+      "normal"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "normal"
+  },
+  {
+    "uid": "CXR83",
+    "image_filename": "CXR83_IM-2358-1001.png",
+    "image_url": "/imgs/512/83/83/CXR83_IM-2358-1001.png",
+    "findings": [
+      "normal"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "normal"
+  },
+  {
+    "uid": "CXR83",
+    "image_filename": "CXR83_IM-2358-1002.png",
+    "image_url": "/imgs/512/83/83/CXR83_IM-2358-1002.png",
+    "findings": [
+      "normal"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "normal"
+  },
+  {
+    "uid": "CXR840",
+    "image_filename": "CXR840_IM-2364-0001-0001.png",
+    "image_url": "/imgs/512/38/840/CXR840_IM-2364-0001-0001.png",
+    "findings": [
+      "Pulmonary Atelectasis/upper lobe/left",
+      "Infiltrate/lung/hilum/left",
+      "Catheters, Indwelling",
+      "Pneumothorax/upper lobe/left/small"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Pulmonary Atelectasis/upper lobe/left, Infiltrate/lung/hilum/left, Catheters, Indwelling, Pneumothorax/upper lobe/left/small"
+  },
+  {
+    "uid": "CXR840",
+    "image_filename": "CXR840_IM-2364-0001-0002.png",
+    "image_url": "/imgs/512/38/840/CXR840_IM-2364-0001-0002.png",
+    "findings": [
+      "Pulmonary Atelectasis/upper lobe/left",
+      "Infiltrate/lung/hilum/left",
+      "Catheters, Indwelling",
+      "Pneumothorax/upper lobe/left/small"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Pulmonary Atelectasis/upper lobe/left, Infiltrate/lung/hilum/left, Catheters, Indwelling, Pneumothorax/upper lobe/left/small"
+  },
+  {
+    "uid": "CXR800",
+    "image_filename": "CXR800_IM-2334-4001.png",
+    "image_url": "/imgs/512/399/800/CXR800_IM-2334-4001.png",
+    "findings": [
+      "Cardiomegaly",
+      "Aorta, Thoracic/tortuous/severe",
+      "Hernia, Hiatal/large",
+      "Bone Diseases, Metabolic/thoracic vertebrae/diffuse",
+      "Fractures, Bone/thoracic vertebrae",
+      "Deformity/thoracic vertebrae/multiple",
+      "Humerus/degenerative/severe",
+      "Technical Quality of Image Unsatisfactory "
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Aorta, Thoracic/tortuous/severe, Hernia, Hiatal/large, Bone Diseases, Metabolic/thoracic vertebrae/diffuse, Fractures, Bone/thoracic vertebrae, Deformity/thoracic vertebrae/multiple, Humerus/degenerative/severe, Technical Quality of Image Unsatisfactory "
+  },
+  {
+    "uid": "CXR800",
+    "image_filename": "CXR800_IM-2334-4004-0001.png",
+    "image_url": "/imgs/512/399/800/CXR800_IM-2334-4004-0001.png",
+    "findings": [
+      "Cardiomegaly",
+      "Aorta, Thoracic/tortuous/severe",
+      "Hernia, Hiatal/large",
+      "Bone Diseases, Metabolic/thoracic vertebrae/diffuse",
+      "Fractures, Bone/thoracic vertebrae",
+      "Deformity/thoracic vertebrae/multiple",
+      "Humerus/degenerative/severe",
+      "Technical Quality of Image Unsatisfactory "
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Aorta, Thoracic/tortuous/severe, Hernia, Hiatal/large, Bone Diseases, Metabolic/thoracic vertebrae/diffuse, Fractures, Bone/thoracic vertebrae, Deformity/thoracic vertebrae/multiple, Humerus/degenerative/severe, Technical Quality of Image Unsatisfactory "
+  },
+  {
+    "uid": "CXR800",
+    "image_filename": "CXR800_IM-2334-4004-0002.png",
+    "image_url": "/imgs/512/399/800/CXR800_IM-2334-4004-0002.png",
+    "findings": [
+      "Cardiomegaly",
+      "Aorta, Thoracic/tortuous/severe",
+      "Hernia, Hiatal/large",
+      "Bone Diseases, Metabolic/thoracic vertebrae/diffuse",
+      "Fractures, Bone/thoracic vertebrae",
+      "Deformity/thoracic vertebrae/multiple",
+      "Humerus/degenerative/severe",
+      "Technical Quality of Image Unsatisfactory "
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Aorta, Thoracic/tortuous/severe, Hernia, Hiatal/large, Bone Diseases, Metabolic/thoracic vertebrae/diffuse, Fractures, Bone/thoracic vertebrae, Deformity/thoracic vertebrae/multiple, Humerus/degenerative/severe, Technical Quality of Image Unsatisfactory "
+  },
+  {
+    "uid": "CXR2619",
+    "image_filename": "CXR2619_IM-1108-1001.png",
+    "image_url": "/imgs/512/213/2619/CXR2619_IM-1108-1001.png",
+    "findings": [
+      "Osteophyte/thoracic vertebrae/degenerative",
+      "Calcinosis/lung/hilum/lymph nodes/bilateral",
+      "Opacity/lung/middle lobe/bilateral/interstitial/round/small/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Osteophyte/thoracic vertebrae/degenerative, Calcinosis/lung/hilum/lymph nodes/bilateral, Opacity/lung/middle lobe/bilateral/interstitial/round/small/mild"
+  },
+  {
+    "uid": "CXR2010",
+    "image_filename": "CXR2010_IM-0661-1001.png",
+    "image_url": "/imgs/512/5/2010/CXR2010_IM-0661-1001.png",
+    "findings": [
+      "normal"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "normal"
+  },
+  {
+    "uid": "CXR2010",
+    "image_filename": "CXR2010_IM-0661-1002.png",
+    "image_url": "/imgs/512/5/2010/CXR2010_IM-0661-1002.png",
+    "findings": [
+      "normal"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "normal"
+  },
+  {
+    "uid": "CXR1126",
+    "image_filename": "CXR1126_IM-0082-1001.png",
+    "image_url": "/imgs/512/324/1126/CXR1126_IM-0082-1001.png",
+    "findings": [
+      "Surgical Instruments/mediastinum",
+      "Calcinosis/aorta, thoracic",
+      "Aorta, Thoracic/tortuous",
+      "Pulmonary Atelectasis/base/right/scattered/mild",
+      "Thoracic Vertebrae/degenerative/moderate",
+      "Bone Diseases, Metabolic"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Surgical Instruments/mediastinum, Calcinosis/aorta, thoracic, Aorta, Thoracic/tortuous, Pulmonary Atelectasis/base/right/scattered/mild, Thoracic Vertebrae/degenerative/moderate, Bone Diseases, Metabolic"
+  },
+  {
+    "uid": "CXR1126",
+    "image_filename": "CXR1126_IM-0082-2001.png",
+    "image_url": "/imgs/512/324/1126/CXR1126_IM-0082-2001.png",
+    "findings": [
+      "Surgical Instruments/mediastinum",
+      "Calcinosis/aorta, thoracic",
+      "Aorta, Thoracic/tortuous",
+      "Pulmonary Atelectasis/base/right/scattered/mild",
+      "Thoracic Vertebrae/degenerative/moderate",
+      "Bone Diseases, Metabolic"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Surgical Instruments/mediastinum, Calcinosis/aorta, thoracic, Aorta, Thoracic/tortuous, Pulmonary Atelectasis/base/right/scattered/mild, Thoracic Vertebrae/degenerative/moderate, Bone Diseases, Metabolic"
+  },
+  {
+    "uid": "CXR1255",
+    "image_filename": "CXR1255_IM-0172-1001-0001.png",
+    "image_url": "/imgs/512/52/1255/CXR1255_IM-0172-1001-0001.png",
+    "findings": [
+      "Tube, Inserted/thorax/right",
+      "Lung/hypoinflation",
+      "Pneumoperitoneum/small"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Tube, Inserted/thorax/right, Lung/hypoinflation, Pneumoperitoneum/small"
+  },
+  {
+    "uid": "CXR1255",
+    "image_filename": "CXR1255_IM-0172-1001-0002.png",
+    "image_url": "/imgs/512/52/1255/CXR1255_IM-0172-1001-0002.png",
+    "findings": [
+      "Tube, Inserted/thorax/right",
+      "Lung/hypoinflation",
+      "Pneumoperitoneum/small"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Tube, Inserted/thorax/right, Lung/hypoinflation, Pneumoperitoneum/small"
+  },
+  {
+    "uid": "CXR2074",
+    "image_filename": "CXR2074_IM-0708-1001.png",
+    "image_url": "/imgs/512/69/2074/CXR2074_IM-0708-1001.png",
+    "findings": [
+      "Lung/hypoinflation",
+      "Aorta, Thoracic/tortuous",
+      "Pleural Effusion/bilateral/small",
+      "Opacity/lung/base/bilateral",
+      "Deformity/thoracic vertebrae/anterior",
+      "Pulmonary Atelectasis/bilateral",
+      "Opacity/mediastinum/right"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Lung/hypoinflation, Aorta, Thoracic/tortuous, Pleural Effusion/bilateral/small, Opacity/lung/base/bilateral, Deformity/thoracic vertebrae/anterior, Pulmonary Atelectasis/bilateral, Opacity/mediastinum/right"
+  },
+  {
+    "uid": "CXR2074",
+    "image_filename": "CXR2074_IM-0708-2001.png",
+    "image_url": "/imgs/512/69/2074/CXR2074_IM-0708-2001.png",
+    "findings": [
+      "Lung/hypoinflation",
+      "Aorta, Thoracic/tortuous",
+      "Pleural Effusion/bilateral/small",
+      "Opacity/lung/base/bilateral",
+      "Deformity/thoracic vertebrae/anterior",
+      "Pulmonary Atelectasis/bilateral",
+      "Opacity/mediastinum/right"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Lung/hypoinflation, Aorta, Thoracic/tortuous, Pleural Effusion/bilateral/small, Opacity/lung/base/bilateral, Deformity/thoracic vertebrae/anterior, Pulmonary Atelectasis/bilateral, Opacity/mediastinum/right"
+  },
+  {
+    "uid": "CXR2430",
+    "image_filename": "CXR2430_IM-0972-3001.png",
+    "image_url": "/imgs/512/24/2430/CXR2430_IM-0972-3001.png",
+    "findings": [
+      "Bone Diseases, Metabolic/thoracic vertebrae",
+      "Deformity/thoracic vertebrae",
+      "Scoliosis/thoracic vertebrae",
+      "Thoracic Vertebrae/degenerative",
+      "Calcified Granuloma/lung/upper lobe/left",
+      "Nodule/lung/middle lobe/right"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Bone Diseases, Metabolic/thoracic vertebrae, Deformity/thoracic vertebrae, Scoliosis/thoracic vertebrae, Thoracic Vertebrae/degenerative, Calcified Granuloma/lung/upper lobe/left, Nodule/lung/middle lobe/right"
+  },
+  {
+    "uid": "CXR533",
+    "image_filename": "CXR533_IM-2140-1001.png",
+    "image_url": "/imgs/512/132/533/CXR533_IM-2140-1001.png",
+    "findings": [
+      "Mediastinum/prominent",
+      "Aorta, Thoracic/tortuous",
+      "Scoliosis/thoracic vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Mediastinum/prominent, Aorta, Thoracic/tortuous, Scoliosis/thoracic vertebrae"
+  },
+  {
+    "uid": "CXR533",
+    "image_filename": "CXR533_IM-2140-2001.png",
+    "image_url": "/imgs/512/132/533/CXR533_IM-2140-2001.png",
+    "findings": [
+      "Mediastinum/prominent",
+      "Aorta, Thoracic/tortuous",
+      "Scoliosis/thoracic vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Mediastinum/prominent, Aorta, Thoracic/tortuous, Scoliosis/thoracic vertebrae"
+  },
+  {
+    "uid": "CXR2822",
+    "image_filename": "CXR2822_IM-1244-0001.png",
+    "image_url": "/imgs/512/15/2822/CXR2822_IM-1244-0001.png",
+    "findings": [
+      "Catheters, Indwelling/left",
+      "Calcified Granuloma/lung/lower lobe/right/posterior",
+      "Spinal Fusion/cervical vertebrae/anterior",
+      "Thoracic Vertebrae/degenerative/mild",
+      "Deformity/thoracic vertebrae/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Catheters, Indwelling/left, Calcified Granuloma/lung/lower lobe/right/posterior, Spinal Fusion/cervical vertebrae/anterior, Thoracic Vertebrae/degenerative/mild, Deformity/thoracic vertebrae/mild"
+  },
+  {
+    "uid": "CXR2822",
+    "image_filename": "CXR2822_IM-1244-2002.png",
+    "image_url": "/imgs/512/15/2822/CXR2822_IM-1244-2002.png",
+    "findings": [
+      "Catheters, Indwelling/left",
+      "Calcified Granuloma/lung/lower lobe/right/posterior",
+      "Spinal Fusion/cervical vertebrae/anterior",
+      "Thoracic Vertebrae/degenerative/mild",
+      "Deformity/thoracic vertebrae/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Catheters, Indwelling/left, Calcified Granuloma/lung/lower lobe/right/posterior, Spinal Fusion/cervical vertebrae/anterior, Thoracic Vertebrae/degenerative/mild, Deformity/thoracic vertebrae/mild"
+  },
+  {
+    "uid": "CXR509",
+    "image_filename": "CXR509_IM-2125-1001.png",
+    "image_url": "/imgs/512/108/509/CXR509_IM-2125-1001.png",
+    "findings": [
+      "Tube, Inserted/thorax/left",
+      "Pleural Effusion/left",
+      "Tube, Inserted/trachea, carina",
+      "Catheters, Indwelling",
+      "Airspace Disease/lung/left/patchy"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Tube, Inserted/thorax/left, Pleural Effusion/left, Tube, Inserted/trachea, carina, Catheters, Indwelling, Airspace Disease/lung/left/patchy"
+  },
+  {
+    "uid": "CXR1750",
+    "image_filename": "CXR1750_IM-0493-1001.png",
+    "image_url": "/imgs/512/146/1750/CXR1750_IM-0493-1001.png",
+    "findings": [
+      "Calcinosis/aorta, thoracic",
+      "Lung/hyperdistention",
+      "Diaphragm/bilateral/flattened",
+      "Opacity/lung/base/left/streaky",
+      "Cicatrix/lung/base/left",
+      "Kyphosis/thoracic vertebrae/severe",
+      "Calcified Granuloma/lung/bilateral/scattered",
+      "Emphysema/chronic"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcinosis/aorta, thoracic, Lung/hyperdistention, Diaphragm/bilateral/flattened, Opacity/lung/base/left/streaky, Cicatrix/lung/base/left, Kyphosis/thoracic vertebrae/severe, Calcified Granuloma/lung/bilateral/scattered, Emphysema/chronic"
+  },
+  {
+    "uid": "CXR1750",
+    "image_filename": "CXR1750_IM-0493-2001.png",
+    "image_url": "/imgs/512/146/1750/CXR1750_IM-0493-2001.png",
+    "findings": [
+      "Calcinosis/aorta, thoracic",
+      "Lung/hyperdistention",
+      "Diaphragm/bilateral/flattened",
+      "Opacity/lung/base/left/streaky",
+      "Cicatrix/lung/base/left",
+      "Kyphosis/thoracic vertebrae/severe",
+      "Calcified Granuloma/lung/bilateral/scattered",
+      "Emphysema/chronic"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcinosis/aorta, thoracic, Lung/hyperdistention, Diaphragm/bilateral/flattened, Opacity/lung/base/left/streaky, Cicatrix/lung/base/left, Kyphosis/thoracic vertebrae/severe, Calcified Granuloma/lung/bilateral/scattered, Emphysema/chronic"
+  },
+  {
+    "uid": "CXR2173",
+    "image_filename": "CXR2173_IM-0786-1001.png",
+    "image_url": "/imgs/512/168/2173/CXR2173_IM-0786-1001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative"
+  },
+  {
+    "uid": "CXR2173",
+    "image_filename": "CXR2173_IM-0786-1002.png",
+    "image_url": "/imgs/512/168/2173/CXR2173_IM-0786-1002.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative"
+  },
+  {
+    "uid": "CXR460",
+    "image_filename": "CXR460_IM-2090-1001.png",
+    "image_url": "/imgs/512/59/460/CXR460_IM-2090-1001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous/mild"
+  },
+  {
+    "uid": "CXR460",
+    "image_filename": "CXR460_IM-2090-2001.png",
+    "image_url": "/imgs/512/59/460/CXR460_IM-2090-2001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous/mild"
+  },
+  {
+    "uid": "CXR3892",
+    "image_filename": "CXR3892_IM-1974-0001-0001.png",
+    "image_url": "/imgs/512/283/3892/CXR3892_IM-1974-0001-0001.png",
+    "findings": [
+      "Opacity/lung/base/bilateral/patchy",
+      "Catheters, Indwelling/left",
+      "Lung/hypoinflation",
+      "Kyphosis/thoracic vertebrae",
+      "Deformity/thoracic vertebrae/multiple/mild",
+      "Thoracic Vertebrae/degenerative/moderate",
+      "Fractures, Bone/ribs/bilateral/multiple/healed",
+      "Consolidation/lung/base/left/moderate",
+      "Opacity/lung/base/right/mild",
+      "Deformity/lumbar vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Opacity/lung/base/bilateral/patchy, Catheters, Indwelling/left, Lung/hypoinflation, Kyphosis/thoracic vertebrae, Deformity/thoracic vertebrae/multiple/mild, Thoracic Vertebrae/degenerative/moderate, Fractures, Bone/ribs/bilateral/multiple/healed, Consolidation/lung/base/left/moderate, Opacity/lung/base/right/mild, Deformity/lumbar vertebrae"
+  },
+  {
+    "uid": "CXR3892",
+    "image_filename": "CXR3892_IM-1974-0001-0002.png",
+    "image_url": "/imgs/512/283/3892/CXR3892_IM-1974-0001-0002.png",
+    "findings": [
+      "Opacity/lung/base/bilateral/patchy",
+      "Catheters, Indwelling/left",
+      "Lung/hypoinflation",
+      "Kyphosis/thoracic vertebrae",
+      "Deformity/thoracic vertebrae/multiple/mild",
+      "Thoracic Vertebrae/degenerative/moderate",
+      "Fractures, Bone/ribs/bilateral/multiple/healed",
+      "Consolidation/lung/base/left/moderate",
+      "Opacity/lung/base/right/mild",
+      "Deformity/lumbar vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Opacity/lung/base/bilateral/patchy, Catheters, Indwelling/left, Lung/hypoinflation, Kyphosis/thoracic vertebrae, Deformity/thoracic vertebrae/multiple/mild, Thoracic Vertebrae/degenerative/moderate, Fractures, Bone/ribs/bilateral/multiple/healed, Consolidation/lung/base/left/moderate, Opacity/lung/base/right/mild, Deformity/lumbar vertebrae"
+  },
+  {
+    "uid": "CXR93",
+    "image_filename": "CXR93_IM-2428-1001.png",
+    "image_url": "/imgs/512/93/93/CXR93_IM-2428-1001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR93",
+    "image_filename": "CXR93_IM-2428-2001.png",
+    "image_url": "/imgs/512/93/93/CXR93_IM-2428-2001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR2149",
+    "image_filename": "CXR2149_IM-0768-0001-0001.png",
+    "image_url": "/imgs/512/144/2149/CXR2149_IM-0768-0001-0001.png",
+    "findings": [
+      "Calcinosis/aorta, thoracic",
+      "Osteophyte/thoracic vertebrae/multiple/mild",
+      "Calcified Granuloma/lung/upper lobe/left"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcinosis/aorta, thoracic, Osteophyte/thoracic vertebrae/multiple/mild, Calcified Granuloma/lung/upper lobe/left"
+  },
+  {
+    "uid": "CXR2149",
+    "image_filename": "CXR2149_IM-0768-0001-0002.png",
+    "image_url": "/imgs/512/144/2149/CXR2149_IM-0768-0001-0002.png",
+    "findings": [
+      "Calcinosis/aorta, thoracic",
+      "Osteophyte/thoracic vertebrae/multiple/mild",
+      "Calcified Granuloma/lung/upper lobe/left"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcinosis/aorta, thoracic, Osteophyte/thoracic vertebrae/multiple/mild, Calcified Granuloma/lung/upper lobe/left"
+  },
+  {
+    "uid": "CXR1921",
+    "image_filename": "CXR1921_IM-0598-1001.png",
+    "image_url": "/imgs/512/317/1921/CXR1921_IM-0598-1001.png",
+    "findings": [
+      "Pulmonary Disease, Chronic Obstructive",
+      "Lung/hyperdistention/moderate",
+      "Atherosclerosis/aorta, thoracic"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Pulmonary Disease, Chronic Obstructive, Lung/hyperdistention/moderate, Atherosclerosis/aorta, thoracic"
+  },
+  {
+    "uid": "CXR1921",
+    "image_filename": "CXR1921_IM-0598-2001.png",
+    "image_url": "/imgs/512/317/1921/CXR1921_IM-0598-2001.png",
+    "findings": [
+      "Pulmonary Disease, Chronic Obstructive",
+      "Lung/hyperdistention/moderate",
+      "Atherosclerosis/aorta, thoracic"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Pulmonary Disease, Chronic Obstructive, Lung/hyperdistention/moderate, Atherosclerosis/aorta, thoracic"
+  },
+  {
+    "uid": "CXR1699",
+    "image_filename": "CXR1699_IM-0459-2001.png",
+    "image_url": "/imgs/512/95/1699/CXR1699_IM-0459-2001.png",
+    "findings": [
+      "Consolidation/lung/lower lobe/left/focal",
+      "Pneumonia/lower lobe/left",
+      "Pleural Effusion/left/small",
+      "Aorta, Thoracic/tortuous",
+      "Implanted Medical Device"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Consolidation/lung/lower lobe/left/focal, Pneumonia/lower lobe/left, Pleural Effusion/left/small, Aorta, Thoracic/tortuous, Implanted Medical Device"
+  },
+  {
+    "uid": "CXR1699",
+    "image_filename": "CXR1699_IM-0459-3001.png",
+    "image_url": "/imgs/512/95/1699/CXR1699_IM-0459-3001.png",
+    "findings": [
+      "Consolidation/lung/lower lobe/left/focal",
+      "Pneumonia/lower lobe/left",
+      "Pleural Effusion/left/small",
+      "Aorta, Thoracic/tortuous",
+      "Implanted Medical Device"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Consolidation/lung/lower lobe/left/focal, Pneumonia/lower lobe/left, Pleural Effusion/left/small, Aorta, Thoracic/tortuous, Implanted Medical Device"
+  },
+  {
+    "uid": "CXR1065",
+    "image_filename": "CXR1065_IM-0046-1001.png",
+    "image_url": "/imgs/512/263/1065/CXR1065_IM-0046-1001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative/mild",
+      "Atherosclerosis/aorta, thoracic"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative/mild, Atherosclerosis/aorta, thoracic"
+  },
+  {
+    "uid": "CXR1065",
+    "image_filename": "CXR1065_IM-0046-2001.png",
+    "image_url": "/imgs/512/263/1065/CXR1065_IM-0046-2001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative/mild",
+      "Atherosclerosis/aorta, thoracic"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative/mild, Atherosclerosis/aorta, thoracic"
+  },
+  {
+    "uid": "CXR851",
+    "image_filename": "CXR851_IM-2374-13013.png",
+    "image_url": "/imgs/512/49/851/CXR851_IM-2374-13013.png",
+    "findings": [
+      "Lung/hypoinflation",
+      "Osteophyte/thoracic vertebrae",
+      "Kyphosis/thoracic vertebrae",
+      "Thoracic Vertebrae/degenerative",
+      "Catheters, Indwelling/right",
+      "Pulmonary Atelectasis/base"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Lung/hypoinflation, Osteophyte/thoracic vertebrae, Kyphosis/thoracic vertebrae, Thoracic Vertebrae/degenerative, Catheters, Indwelling/right, Pulmonary Atelectasis/base"
+  },
+  {
+    "uid": "CXR3685",
+    "image_filename": "CXR3685_IM-1836-1001.png",
+    "image_url": "/imgs/512/76/3685/CXR3685_IM-1836-1001.png",
+    "findings": [
+      "Calcinosis/aorta, thoracic",
+      "Shift/trachea/right/mild",
+      "Thoracic Vertebrae/degenerative/severe"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcinosis/aorta, thoracic, Shift/trachea/right/mild, Thoracic Vertebrae/degenerative/severe"
+  },
+  {
+    "uid": "CXR3685",
+    "image_filename": "CXR3685_IM-1836-1002.png",
+    "image_url": "/imgs/512/76/3685/CXR3685_IM-1836-1002.png",
+    "findings": [
+      "Calcinosis/aorta, thoracic",
+      "Shift/trachea/right/mild",
+      "Thoracic Vertebrae/degenerative/severe"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcinosis/aorta, thoracic, Shift/trachea/right/mild, Thoracic Vertebrae/degenerative/severe"
+  },
+  {
+    "uid": "CXR1061",
+    "image_filename": "CXR1061_IM-0043-1001.png",
+    "image_url": "/imgs/512/259/1061/CXR1061_IM-0043-1001.png",
+    "findings": [
+      "Deformity/thoracic vertebrae/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Deformity/thoracic vertebrae/mild"
+  },
+  {
+    "uid": "CXR1061",
+    "image_filename": "CXR1061_IM-0043-2001.png",
+    "image_url": "/imgs/512/259/1061/CXR1061_IM-0043-2001.png",
+    "findings": [
+      "Deformity/thoracic vertebrae/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Deformity/thoracic vertebrae/mild"
+  },
+  {
+    "uid": "CXR927",
+    "image_filename": "CXR927_IM-2425-1001.png",
+    "image_url": "/imgs/512/125/927/CXR927_IM-2425-1001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous"
+  },
+  {
+    "uid": "CXR927",
+    "image_filename": "CXR927_IM-2425-2001.png",
+    "image_url": "/imgs/512/125/927/CXR927_IM-2425-2001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous"
+  },
+  {
+    "uid": "CXR1576",
+    "image_filename": "CXR1576_IM-0375-1001.png",
+    "image_url": "/imgs/512/373/1576/CXR1576_IM-0375-1001.png",
+    "findings": [
+      "Hernia, Hiatal/large",
+      "Fractures, Bone/thoracic vertebrae",
+      "Scoliosis/thoracic vertebrae",
+      "Scoliosis/lumbar vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Hernia, Hiatal/large, Fractures, Bone/thoracic vertebrae, Scoliosis/thoracic vertebrae, Scoliosis/lumbar vertebrae"
+  },
+  {
+    "uid": "CXR1576",
+    "image_filename": "CXR1576_IM-0375-2001.png",
+    "image_url": "/imgs/512/373/1576/CXR1576_IM-0375-2001.png",
+    "findings": [
+      "Hernia, Hiatal/large",
+      "Fractures, Bone/thoracic vertebrae",
+      "Scoliosis/thoracic vertebrae",
+      "Scoliosis/lumbar vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Hernia, Hiatal/large, Fractures, Bone/thoracic vertebrae, Scoliosis/thoracic vertebrae, Scoliosis/lumbar vertebrae"
+  },
+  {
+    "uid": "CXR2117",
+    "image_filename": "CXR2117_IM-0745-1001.png",
+    "image_url": "/imgs/512/112/2117/CXR2117_IM-0745-1001.png",
+    "findings": [
+      "Diaphragm/left/elevated",
+      "Spondylosis/thoracic vertebrae/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Diaphragm/left/elevated, Spondylosis/thoracic vertebrae/mild"
+  },
+  {
+    "uid": "CXR2117",
+    "image_filename": "CXR2117_IM-0745-2001.png",
+    "image_url": "/imgs/512/112/2117/CXR2117_IM-0745-2001.png",
+    "findings": [
+      "Diaphragm/left/elevated",
+      "Spondylosis/thoracic vertebrae/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Diaphragm/left/elevated, Spondylosis/thoracic vertebrae/mild"
+  },
+  {
+    "uid": "CXR139",
+    "image_filename": "CXR139_IM-0248-1001.png",
+    "image_url": "/imgs/512/139/139/CXR139_IM-0248-1001.png",
+    "findings": [
+      "Cardiac Shadow/enlarged/mild",
+      "Opacity/supracardiac",
+      "Aorta, Thoracic/tortuous",
+      "Calcinosis/aorta, thoracic",
+      "Lung/hyperdistention",
+      "Diaphragm/bilateral/flattened",
+      "Thoracic Vertebrae/degenerative/severe",
+      "Cardiomegaly/mild",
+      "Pulmonary Disease, Chronic Obstructive"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiac Shadow/enlarged/mild, Opacity/supracardiac, Aorta, Thoracic/tortuous, Calcinosis/aorta, thoracic, Lung/hyperdistention, Diaphragm/bilateral/flattened, Thoracic Vertebrae/degenerative/severe, Cardiomegaly/mild, Pulmonary Disease, Chronic Obstructive"
+  },
+  {
+    "uid": "CXR139",
+    "image_filename": "CXR139_IM-0248-3003.png",
+    "image_url": "/imgs/512/139/139/CXR139_IM-0248-3003.png",
+    "findings": [
+      "Cardiac Shadow/enlarged/mild",
+      "Opacity/supracardiac",
+      "Aorta, Thoracic/tortuous",
+      "Calcinosis/aorta, thoracic",
+      "Lung/hyperdistention",
+      "Diaphragm/bilateral/flattened",
+      "Thoracic Vertebrae/degenerative/severe",
+      "Cardiomegaly/mild",
+      "Pulmonary Disease, Chronic Obstructive"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiac Shadow/enlarged/mild, Opacity/supracardiac, Aorta, Thoracic/tortuous, Calcinosis/aorta, thoracic, Lung/hyperdistention, Diaphragm/bilateral/flattened, Thoracic Vertebrae/degenerative/severe, Cardiomegaly/mild, Pulmonary Disease, Chronic Obstructive"
+  },
+  {
+    "uid": "CXR3908",
+    "image_filename": "CXR3908_IM-1985-1001.png",
+    "image_url": "/imgs/512/299/3908/CXR3908_IM-1985-1001.png",
+    "findings": [
+      "Spondylosis/thoracic vertebrae/multiple"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Spondylosis/thoracic vertebrae/multiple"
+  },
+  {
+    "uid": "CXR3908",
+    "image_filename": "CXR3908_IM-1985-2001.png",
+    "image_url": "/imgs/512/299/3908/CXR3908_IM-1985-2001.png",
+    "findings": [
+      "Spondylosis/thoracic vertebrae/multiple"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Spondylosis/thoracic vertebrae/multiple"
+  },
+  {
+    "uid": "CXR1900",
+    "image_filename": "CXR1900_IM-0584-1001.png",
+    "image_url": "/imgs/512/296/1900/CXR1900_IM-0584-1001.png",
+    "findings": [
+      "Calcinosis/aorta",
+      "Aorta/tortuous",
+      "Calcified Granuloma/lung/bilateral/scattered/multiple",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcinosis/aorta, Aorta/tortuous, Calcified Granuloma/lung/bilateral/scattered/multiple, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR1900",
+    "image_filename": "CXR1900_IM-0584-2001.png",
+    "image_url": "/imgs/512/296/1900/CXR1900_IM-0584-2001.png",
+    "findings": [
+      "Calcinosis/aorta",
+      "Aorta/tortuous",
+      "Calcified Granuloma/lung/bilateral/scattered/multiple",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcinosis/aorta, Aorta/tortuous, Calcified Granuloma/lung/bilateral/scattered/multiple, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR541",
+    "image_filename": "CXR541_IM-2147-1001.png",
+    "image_url": "/imgs/512/140/541/CXR541_IM-2147-1001.png",
+    "findings": [
+      "Lumbar Vertebrae/degenerative/mild",
+      "Thoracic Vertebrae/degenerative/mild",
+      "Deformity/lumbar vertebrae/anterior/mild",
+      "Deformity/thoracic vertebrae/anterior/mild",
+      "Deformity/ribs/left/multiple",
+      "Fractures, Bone/ribs/left/multiple/healed"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Lumbar Vertebrae/degenerative/mild, Thoracic Vertebrae/degenerative/mild, Deformity/lumbar vertebrae/anterior/mild, Deformity/thoracic vertebrae/anterior/mild, Deformity/ribs/left/multiple, Fractures, Bone/ribs/left/multiple/healed"
+  },
+  {
+    "uid": "CXR659",
+    "image_filename": "CXR659_IM-2235-1001.png",
+    "image_url": "/imgs/512/258/659/CXR659_IM-2235-1001.png",
+    "findings": [
+      "Aorta/tortuous",
+      "Lung/hypoinflation",
+      "Thoracic Vertebrae/degenerative/moderate"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta/tortuous, Lung/hypoinflation, Thoracic Vertebrae/degenerative/moderate"
+  },
+  {
+    "uid": "CXR659",
+    "image_filename": "CXR659_IM-2235-2001.png",
+    "image_url": "/imgs/512/258/659/CXR659_IM-2235-2001.png",
+    "findings": [
+      "Aorta/tortuous",
+      "Lung/hypoinflation",
+      "Thoracic Vertebrae/degenerative/moderate"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta/tortuous, Lung/hypoinflation, Thoracic Vertebrae/degenerative/moderate"
+  },
+  {
+    "uid": "CXR1095",
+    "image_filename": "CXR1095_IM-0066-1001.png",
+    "image_url": "/imgs/512/293/1095/CXR1095_IM-0066-1001.png",
+    "findings": [
+      "Kyphosis/thorax/severe",
+      "Fractures, Bone/thoracic vertebrae/multiple",
+      "Fractures, Bone/sternum",
+      "Fractures, Bone/lumbar vertebrae",
+      "Catheters, Indwelling/right"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Kyphosis/thorax/severe, Fractures, Bone/thoracic vertebrae/multiple, Fractures, Bone/sternum, Fractures, Bone/lumbar vertebrae, Catheters, Indwelling/right"
+  },
+  {
+    "uid": "CXR3694",
+    "image_filename": "CXR3694_IM-1845-1001.png",
+    "image_url": "/imgs/512/85/3694/CXR3694_IM-1845-1001.png",
+    "findings": [
+      "Pneumothorax/apex/left/small"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Pneumothorax/apex/left/small"
+  },
+  {
+    "uid": "CXR3694",
+    "image_filename": "CXR3694_IM-1845-2001.png",
+    "image_url": "/imgs/512/85/3694/CXR3694_IM-1845-2001.png",
+    "findings": [
+      "Pneumothorax/apex/left/small"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Pneumothorax/apex/left/small"
+  },
+  {
+    "uid": "CXR1941",
+    "image_filename": "CXR1941_IM-0610-2001.png",
+    "image_url": "/imgs/512/337/1941/CXR1941_IM-0610-2001.png",
+    "findings": [
+      "Implanted Medical Device/right",
+      "Cardiomegaly",
+      "Calcinosis/aorta, thoracic",
+      "Opacity/lung/interstitial/mild",
+      "Opacity/retrocardiac"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Implanted Medical Device/right, Cardiomegaly, Calcinosis/aorta, thoracic, Opacity/lung/interstitial/mild, Opacity/retrocardiac"
+  },
+  {
+    "uid": "CXR3843",
+    "image_filename": "CXR3843_IM-1944-1001.png",
+    "image_url": "/imgs/512/234/3843/CXR3843_IM-1944-1001.png",
+    "findings": [
+      "Catheters, Indwelling/right",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Catheters, Indwelling/right, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR3843",
+    "image_filename": "CXR3843_IM-1944-2001.png",
+    "image_url": "/imgs/512/234/3843/CXR3843_IM-1944-2001.png",
+    "findings": [
+      "Catheters, Indwelling/right",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Catheters, Indwelling/right, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR3843",
+    "image_filename": "CXR3843_IM-1944-3001.png",
+    "image_url": "/imgs/512/234/3843/CXR3843_IM-1944-3001.png",
+    "findings": [
+      "Catheters, Indwelling/right",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Catheters, Indwelling/right, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR3825",
+    "image_filename": "CXR3825_IM-1931-1001.png",
+    "image_url": "/imgs/512/216/3825/CXR3825_IM-1931-1001.png",
+    "findings": [
+      "Spinal Fusion/cervical vertebrae",
+      "Spinal Fusion/thoracic vertebrae",
+      "Calcified Granuloma/lung/bilateral/multiple",
+      "Spine/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Spinal Fusion/cervical vertebrae, Spinal Fusion/thoracic vertebrae, Calcified Granuloma/lung/bilateral/multiple, Spine/degenerative"
+  },
+  {
+    "uid": "CXR3825",
+    "image_filename": "CXR3825_IM-1931-2001.png",
+    "image_url": "/imgs/512/216/3825/CXR3825_IM-1931-2001.png",
+    "findings": [
+      "Spinal Fusion/cervical vertebrae",
+      "Spinal Fusion/thoracic vertebrae",
+      "Calcified Granuloma/lung/bilateral/multiple",
+      "Spine/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Spinal Fusion/cervical vertebrae, Spinal Fusion/thoracic vertebrae, Calcified Granuloma/lung/bilateral/multiple, Spine/degenerative"
+  },
+  {
+    "uid": "CXR3760",
+    "image_filename": "CXR3760_IM-1883-1001.png",
+    "image_url": "/imgs/512/151/3760/CXR3760_IM-1883-1001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous",
+      "Thoracic Vertebrae/degenerative/moderate"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous, Thoracic Vertebrae/degenerative/moderate"
+  },
+  {
+    "uid": "CXR3760",
+    "image_filename": "CXR3760_IM-1883-2001.png",
+    "image_url": "/imgs/512/151/3760/CXR3760_IM-1883-2001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous",
+      "Thoracic Vertebrae/degenerative/moderate"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous, Thoracic Vertebrae/degenerative/moderate"
+  },
+  {
+    "uid": "CXR3278",
+    "image_filename": "CXR3278_IM-1559-0001.png",
+    "image_url": "/imgs/512/70/3278/CXR3278_IM-1559-0001.png",
+    "findings": [
+      "Funnel Chest/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Funnel Chest/mild"
+  },
+  {
+    "uid": "CXR103",
+    "image_filename": "CXR103_IM-0023-1001.png",
+    "image_url": "/imgs/512/103/103/CXR103_IM-0023-1001.png",
+    "findings": [
+      "Mediastinum/prominent",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Mediastinum/prominent, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR103",
+    "image_filename": "CXR103_IM-0023-2001.png",
+    "image_url": "/imgs/512/103/103/CXR103_IM-0023-2001.png",
+    "findings": [
+      "Mediastinum/prominent",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Mediastinum/prominent, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR2606",
+    "image_filename": "CXR2606_IM-1096-2001.png",
+    "image_url": "/imgs/512/200/2606/CXR2606_IM-1096-2001.png",
+    "findings": [
+      "Lung/interstitial/prominent",
+      "Density/mediastinum",
+      "Hernia, Hiatal/moderate",
+      "Aorta, Thoracic/tortuous",
+      "Calcinosis/aorta",
+      "Kyphosis/thoracic vertebrae/severe",
+      "Deformity/thoracic vertebrae/anterior/multiple",
+      "Bone Diseases, Metabolic/diffuse"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Lung/interstitial/prominent, Density/mediastinum, Hernia, Hiatal/moderate, Aorta, Thoracic/tortuous, Calcinosis/aorta, Kyphosis/thoracic vertebrae/severe, Deformity/thoracic vertebrae/anterior/multiple, Bone Diseases, Metabolic/diffuse"
+  },
+  {
+    "uid": "CXR380",
+    "image_filename": "CXR380_IM-1911-1001.png",
+    "image_url": "/imgs/512/380/380/CXR380_IM-1911-1001.png",
+    "findings": [
+      "Medical Device/thorax"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Medical Device/thorax"
+  },
+  {
+    "uid": "CXR380",
+    "image_filename": "CXR380_IM-1911-2001.png",
+    "image_url": "/imgs/512/380/380/CXR380_IM-1911-2001.png",
+    "findings": [
+      "Medical Device/thorax"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Medical Device/thorax"
+  },
+  {
+    "uid": "CXR3273",
+    "image_filename": "CXR3273_IM-1554-1001.png",
+    "image_url": "/imgs/512/65/3273/CXR3273_IM-1554-1001.png",
+    "findings": [
+      "Cardiomegaly",
+      "Aorta, Thoracic/tortuous/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Aorta, Thoracic/tortuous/mild"
+  },
+  {
+    "uid": "CXR3273",
+    "image_filename": "CXR3273_IM-1554-2001.png",
+    "image_url": "/imgs/512/65/3273/CXR3273_IM-1554-2001.png",
+    "findings": [
+      "Cardiomegaly",
+      "Aorta, Thoracic/tortuous/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Aorta, Thoracic/tortuous/mild"
+  },
+  {
+    "uid": "CXR3733",
+    "image_filename": "CXR3733_IM-1866-1001.png",
+    "image_url": "/imgs/512/124/3733/CXR3733_IM-1866-1001.png",
+    "findings": [
+      "Cardiomegaly",
+      "Costophrenic Angle/right/blunted",
+      "Cicatrix/pleura/right",
+      "Granuloma/lung/upper lobe/left",
+      "Kyphosis/thoracic vertebrae",
+      "Osteophyte/thoracic vertebrae/anterior/multiple",
+      "Aorta/tortuous"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Costophrenic Angle/right/blunted, Cicatrix/pleura/right, Granuloma/lung/upper lobe/left, Kyphosis/thoracic vertebrae, Osteophyte/thoracic vertebrae/anterior/multiple, Aorta/tortuous"
+  },
+  {
+    "uid": "CXR3733",
+    "image_filename": "CXR3733_IM-1866-2001.png",
+    "image_url": "/imgs/512/124/3733/CXR3733_IM-1866-2001.png",
+    "findings": [
+      "Cardiomegaly",
+      "Costophrenic Angle/right/blunted",
+      "Cicatrix/pleura/right",
+      "Granuloma/lung/upper lobe/left",
+      "Kyphosis/thoracic vertebrae",
+      "Osteophyte/thoracic vertebrae/anterior/multiple",
+      "Aorta/tortuous"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Costophrenic Angle/right/blunted, Cicatrix/pleura/right, Granuloma/lung/upper lobe/left, Kyphosis/thoracic vertebrae, Osteophyte/thoracic vertebrae/anterior/multiple, Aorta/tortuous"
+  },
+  {
+    "uid": "CXR2837",
+    "image_filename": "CXR2837_IM-1252-1001.png",
+    "image_url": "/imgs/512/30/2837/CXR2837_IM-1252-1001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative/mild",
+      "Opacity/round"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative/mild, Opacity/round"
+  },
+  {
+    "uid": "CXR2837",
+    "image_filename": "CXR2837_IM-1252-2001.png",
+    "image_url": "/imgs/512/30/2837/CXR2837_IM-1252-2001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative/mild",
+      "Opacity/round"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative/mild, Opacity/round"
+  },
+  {
+    "uid": "CXR3929",
+    "image_filename": "CXR3929_IM-2001-0001-0001.png",
+    "image_url": "/imgs/512/320/3929/CXR3929_IM-2001-0001-0001.png",
+    "findings": [
+      "Implanted Medical Device/thorax/left",
+      "Cardiac Shadow/enlarged/mild",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Implanted Medical Device/thorax/left, Cardiac Shadow/enlarged/mild, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR3929",
+    "image_filename": "CXR3929_IM-2001-0001-0003.png",
+    "image_url": "/imgs/512/320/3929/CXR3929_IM-2001-0001-0003.png",
+    "findings": [
+      "Implanted Medical Device/thorax/left",
+      "Cardiac Shadow/enlarged/mild",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Implanted Medical Device/thorax/left, Cardiac Shadow/enlarged/mild, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR2721",
+    "image_filename": "CXR2721_IM-1183-1001.png",
+    "image_url": "/imgs/512/315/2721/CXR2721_IM-1183-1001.png",
+    "findings": [
+      "Calcified Granuloma/scattered/multiple",
+      "Aorta/tortuous",
+      "Calcinosis/aorta",
+      "Scoliosis/thoracic vertebrae",
+      "Kyphosis/severe",
+      "Bone Diseases, Metabolic/diffuse",
+      "Thoracic Vertebrae/degenerative/multiple",
+      "Deformity/thoracic vertebrae/multiple/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcified Granuloma/scattered/multiple, Aorta/tortuous, Calcinosis/aorta, Scoliosis/thoracic vertebrae, Kyphosis/severe, Bone Diseases, Metabolic/diffuse, Thoracic Vertebrae/degenerative/multiple, Deformity/thoracic vertebrae/multiple/mild"
+  },
+  {
+    "uid": "CXR2721",
+    "image_filename": "CXR2721_IM-1183-2001.png",
+    "image_url": "/imgs/512/315/2721/CXR2721_IM-1183-2001.png",
+    "findings": [
+      "Calcified Granuloma/scattered/multiple",
+      "Aorta/tortuous",
+      "Calcinosis/aorta",
+      "Scoliosis/thoracic vertebrae",
+      "Kyphosis/severe",
+      "Bone Diseases, Metabolic/diffuse",
+      "Thoracic Vertebrae/degenerative/multiple",
+      "Deformity/thoracic vertebrae/multiple/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcified Granuloma/scattered/multiple, Aorta/tortuous, Calcinosis/aorta, Scoliosis/thoracic vertebrae, Kyphosis/severe, Bone Diseases, Metabolic/diffuse, Thoracic Vertebrae/degenerative/multiple, Deformity/thoracic vertebrae/multiple/mild"
+  },
+  {
+    "uid": "CXR2940",
+    "image_filename": "CXR2940_IM-1341-1001.png",
+    "image_url": "/imgs/512/133/2940/CXR2940_IM-1341-1001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative"
+  },
+  {
+    "uid": "CXR2940",
+    "image_filename": "CXR2940_IM-1341-2001.png",
+    "image_url": "/imgs/512/133/2940/CXR2940_IM-1341-2001.png",
+    "findings": [
+      "Thoracic Vertebrae/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Thoracic Vertebrae/degenerative"
+  },
+  {
+    "uid": "CXR772",
+    "image_filename": "CXR772_IM-2317-0001-0002.png",
+    "image_url": "/imgs/512/371/772/CXR772_IM-2317-0001-0002.png",
+    "findings": [
+      "Surgical Instruments/mediastinum",
+      "Atherosclerosis/aorta",
+      "Aorta, Thoracic/tortuous",
+      "Cardiomegaly",
+      "Calcinosis/mitral valve/prominent",
+      "Mediastinum/prominent"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Surgical Instruments/mediastinum, Atherosclerosis/aorta, Aorta, Thoracic/tortuous, Cardiomegaly, Calcinosis/mitral valve/prominent, Mediastinum/prominent"
+  },
+  {
+    "uid": "CXR3086",
+    "image_filename": "CXR3086_IM-1444-1001.png",
+    "image_url": "/imgs/512/279/3086/CXR3086_IM-1444-1001.png",
+    "findings": [
+      "Calcified Granuloma/lung/bilateral/multiple",
+      "Diaphragm/right/elevated",
+      "Thoracic Vertebrae/degenerative",
+      "Implanted Medical Device/thoracic vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcified Granuloma/lung/bilateral/multiple, Diaphragm/right/elevated, Thoracic Vertebrae/degenerative, Implanted Medical Device/thoracic vertebrae"
+  },
+  {
+    "uid": "CXR3086",
+    "image_filename": "CXR3086_IM-1444-2001.png",
+    "image_url": "/imgs/512/279/3086/CXR3086_IM-1444-2001.png",
+    "findings": [
+      "Calcified Granuloma/lung/bilateral/multiple",
+      "Diaphragm/right/elevated",
+      "Thoracic Vertebrae/degenerative",
+      "Implanted Medical Device/thoracic vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcified Granuloma/lung/bilateral/multiple, Diaphragm/right/elevated, Thoracic Vertebrae/degenerative, Implanted Medical Device/thoracic vertebrae"
+  },
+  {
+    "uid": "CXR19",
+    "image_filename": "CXR19_IM-0583-1001.png",
+    "image_url": "/imgs/512/19/19/CXR19_IM-0583-1001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous",
+      "Thoracic Vertebrae/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous, Thoracic Vertebrae/degenerative"
+  },
+  {
+    "uid": "CXR19",
+    "image_filename": "CXR19_IM-0583-3003.png",
+    "image_url": "/imgs/512/19/19/CXR19_IM-0583-3003.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous",
+      "Thoracic Vertebrae/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous, Thoracic Vertebrae/degenerative"
+  },
+  {
+    "uid": "CXR215",
+    "image_filename": "CXR215_IM-0769-1001.png",
+    "image_url": "/imgs/512/215/215/CXR215_IM-0769-1001.png",
+    "findings": [
+      "Cardiomegaly",
+      "Calcified Granuloma/lung/lingula",
+      "Calcified Granuloma/lung/upper lobe/left",
+      "Granulomatous Disease",
+      "Scoliosis/thoracic vertebrae/left/moderate",
+      "Scoliosis/lumbar vertebrae/right/mild",
+      "Scoliosis/thoracic vertebrae/right/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Calcified Granuloma/lung/lingula, Calcified Granuloma/lung/upper lobe/left, Granulomatous Disease, Scoliosis/thoracic vertebrae/left/moderate, Scoliosis/lumbar vertebrae/right/mild, Scoliosis/thoracic vertebrae/right/mild"
+  },
+  {
+    "uid": "CXR215",
+    "image_filename": "CXR215_IM-0769-2001.png",
+    "image_url": "/imgs/512/215/215/CXR215_IM-0769-2001.png",
+    "findings": [
+      "Cardiomegaly",
+      "Calcified Granuloma/lung/lingula",
+      "Calcified Granuloma/lung/upper lobe/left",
+      "Granulomatous Disease",
+      "Scoliosis/thoracic vertebrae/left/moderate",
+      "Scoliosis/lumbar vertebrae/right/mild",
+      "Scoliosis/thoracic vertebrae/right/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Cardiomegaly, Calcified Granuloma/lung/lingula, Calcified Granuloma/lung/upper lobe/left, Granulomatous Disease, Scoliosis/thoracic vertebrae/left/moderate, Scoliosis/lumbar vertebrae/right/mild, Scoliosis/thoracic vertebrae/right/mild"
+  },
+  {
+    "uid": "CXR2546",
+    "image_filename": "CXR2546_IM-1055-1001.png",
+    "image_url": "/imgs/512/140/2546/CXR2546_IM-1055-1001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous"
+  },
+  {
+    "uid": "CXR2546",
+    "image_filename": "CXR2546_IM-1055-2001.png",
+    "image_url": "/imgs/512/140/2546/CXR2546_IM-1055-2001.png",
+    "findings": [
+      "Aorta, Thoracic/tortuous"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta, Thoracic/tortuous"
+  },
+  {
+    "uid": "CXR3666",
+    "image_filename": "CXR3666_IM-1824-1001.png",
+    "image_url": "/imgs/512/57/3666/CXR3666_IM-1824-1001.png",
+    "findings": [
+      "Pulmonary Atelectasis/base/right",
+      "Airspace Disease/lung/right",
+      "Pleural Effusion/right",
+      "Cardiomegaly"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Pulmonary Atelectasis/base/right, Airspace Disease/lung/right, Pleural Effusion/right, Cardiomegaly"
+  },
+  {
+    "uid": "CXR3666",
+    "image_filename": "CXR3666_IM-1824-3001.png",
+    "image_url": "/imgs/512/57/3666/CXR3666_IM-1824-3001.png",
+    "findings": [
+      "Pulmonary Atelectasis/base/right",
+      "Airspace Disease/lung/right",
+      "Pleural Effusion/right",
+      "Cardiomegaly"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Pulmonary Atelectasis/base/right, Airspace Disease/lung/right, Pleural Effusion/right, Cardiomegaly"
+  },
+  {
+    "uid": "CXR468",
+    "image_filename": "CXR468_IM-2096-1001.png",
+    "image_url": "/imgs/512/67/468/CXR468_IM-2096-1001.png",
+    "findings": [
+      "Nodule/lung/apex/right",
+      "Lung/hyperdistention",
+      "Density/thorax/scattered",
+      "Costophrenic Angle/blunted/chronic",
+      "Fractures, Bone/ribs/right/posterior/healed"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Nodule/lung/apex/right, Lung/hyperdistention, Density/thorax/scattered, Costophrenic Angle/blunted/chronic, Fractures, Bone/ribs/right/posterior/healed"
+  },
+  {
+    "uid": "CXR468",
+    "image_filename": "CXR468_IM-2096-2001.png",
+    "image_url": "/imgs/512/67/468/CXR468_IM-2096-2001.png",
+    "findings": [
+      "Nodule/lung/apex/right",
+      "Lung/hyperdistention",
+      "Density/thorax/scattered",
+      "Costophrenic Angle/blunted/chronic",
+      "Fractures, Bone/ribs/right/posterior/healed"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Nodule/lung/apex/right, Lung/hyperdistention, Density/thorax/scattered, Costophrenic Angle/blunted/chronic, Fractures, Bone/ribs/right/posterior/healed"
+  },
+  {
+    "uid": "CXR2331",
+    "image_filename": "CXR2331_IM-0900-1001.png",
+    "image_url": "/imgs/512/326/2331/CXR2331_IM-0900-1001.png",
+    "findings": [
+      "Aorta/tortuous",
+      "Lung/hypoinflation",
+      "Opacity/lung",
+      "Pulmonary Atelectasis/focal",
+      "Thoracic Vertebrae/degenerative",
+      "Kyphosis/thoracic vertebrae"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Aorta/tortuous, Lung/hypoinflation, Opacity/lung, Pulmonary Atelectasis/focal, Thoracic Vertebrae/degenerative, Kyphosis/thoracic vertebrae"
+  },
+  {
+    "uid": "CXR2417",
+    "image_filename": "CXR2417_IM-0961-1001.png",
+    "image_url": "/imgs/512/11/2417/CXR2417_IM-0961-1001.png",
+    "findings": [
+      "Calcified Granuloma/lung/lower lobe/left",
+      "Airspace Disease/lung/base/bilateral/mild",
+      "Thoracic Vertebrae/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcified Granuloma/lung/lower lobe/left, Airspace Disease/lung/base/bilateral/mild, Thoracic Vertebrae/degenerative"
+  },
+  {
+    "uid": "CXR2417",
+    "image_filename": "CXR2417_IM-0961-2001.png",
+    "image_url": "/imgs/512/11/2417/CXR2417_IM-0961-2001.png",
+    "findings": [
+      "Calcified Granuloma/lung/lower lobe/left",
+      "Airspace Disease/lung/base/bilateral/mild",
+      "Thoracic Vertebrae/degenerative"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcified Granuloma/lung/lower lobe/left, Airspace Disease/lung/base/bilateral/mild, Thoracic Vertebrae/degenerative"
+  },
+  {
+    "uid": "CXR700",
+    "image_filename": "CXR700_IM-2265-1001.png",
+    "image_url": "/imgs/512/299/700/CXR700_IM-2265-1001.png",
+    "findings": [
+      "Calcified Granuloma/lung/lower lobe/right",
+      "Bone Diseases, Metabolic",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcified Granuloma/lung/lower lobe/right, Bone Diseases, Metabolic, Thoracic Vertebrae/degenerative/mild"
+  },
+  {
+    "uid": "CXR700",
+    "image_filename": "CXR700_IM-2265-4004.png",
+    "image_url": "/imgs/512/299/700/CXR700_IM-2265-4004.png",
+    "findings": [
+      "Calcified Granuloma/lung/lower lobe/right",
+      "Bone Diseases, Metabolic",
+      "Thoracic Vertebrae/degenerative/mild"
+    ],
+    "report_sections": {},
+    "diagnosis_label": "Calcified Granuloma/lung/lower lobe/right, Bone Diseases, Metabolic, Thoracic Vertebrae/degenerative/mild"
+  }
+]
