@@ -21,4 +21,4 @@ services:
       - key: PYTHONPATH
         value: /app
       - key: CORS_ORIGINS
-        sync: false  # Set to your Vercel URL after deploy
+        value: https://medbot-jet.vercel.app,http://localhost:5173
