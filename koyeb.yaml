@@ -1,6 +1,6 @@
 name: clinical-ai-copilot-backend
 
-services:
+services: 
   - name: backend
     type: web
     git:
