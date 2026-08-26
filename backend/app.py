@@ -61,5 +61,5 @@ with gr.Blocks(
 
 
 # ── Mount the full FastAPI app onto Gradio ────────────────────────────────────
-# This exposes all /api/* routes alongside the Gradio interface at /gradio
-app = gr.mount_gradio_app(fastapi_app, demo, path="/gradio")
+# This exposes all /api/* routes alongside the Gradio interface at /
+app = gr.mount_gradio_app(fastapi_app, demo, path="/")
