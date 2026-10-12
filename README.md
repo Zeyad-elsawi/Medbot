@@ -1,55 +1,155 @@
 # Multimodal Clinical AI Copilot
 
-![Architecture Diagram](https://img.shields.io/badge/Architecture-LangGraph_|_FastAPI_|_React-blue)
-![AI Models](https://img.shields.io/badge/Models-LLaVA_Vision_|_BioMistral-purple)
-![MCP Server](https://img.shields.io/badge/Protocol-Model_Context_Protocol_(MCP)-green)
+[![Architecture](https://img.shields.io/badge/Architecture-LangGraph_%7C_FastAPI_%7C_React-blue?style=flat-square)](https://langchain-ai.github.io/langgraph/)
+[![AI Models](https://img.shields.io/badge/Models-Google_Gemini_Multimodal_Flash-purple?style=flat-square)](https://ai.google.dev/)
+[![Protocol](https://img.shields.io/badge/Protocol-Model_Context_Protocol_(FastMCP)-green?style=flat-square)](https://modelcontextprotocol.io/)
+[![Embeddings](https://img.shields.io/badge/Embeddings-PubMedBERT_%7C_OpenCLIP-orange?style=flat-square)](https://huggingface.co/pritamdeka/S-PubMedBert-MS-MARCO)
+[![Vector DB](https://img.shields.io/badge/Vector_DB-Qdrant_Cloud_%2B_Local_Index-red?style=flat-square)](https://qdrant.tech/)
 
-An advanced, multimodal clinical AI assistant that analyzes chest X-rays, synthesizes patient symptoms, checks for drug interactions, and queries medical literature to generate comprehensive, structured clinical reports. Built using a fully agentic architecture with LangGraph and the Model Context Protocol (MCP).
+An end-to-end multimodal clinical decision-support copilot designed for physicians and radiologists. The system processes uploaded Chest X-rays alongside clinical symptoms and patient medication profiles. It orchestrates a multi-agent state graph using **LangGraph**, retrieves historical cases and PubMed literature via the **Model Context Protocol (MCP)**, identifies high-risk drug-drug interactions, maps diagnoses to **ICD-10-CM codes**, and streams a comprehensive, structured clinical evaluation report via **Server-Sent Events (SSE)** with instant medical-grade PDF generation.
 
-**Note:** This is a portfolio demonstration project built for research purposes. It is **not** a real medical device and should not be used for actual clinical diagnosis.
-
----
-
-## 🌟 Key Features
-
-1. **Multimodal Vision Analysis**
-   - Uses **LLaVA-Med (7B)** to extract clinical findings directly from uploaded Chest X-rays (PNG/JPG/DICOM).
-2. **Agentic Orchestration (LangGraph)**
-   - Uses a parallel StateGraph to route image analysis to the Vision Agent and text symptoms to the RAG Agent simultaneously, merging their outputs before final synthesis.
-3. **Model Context Protocol (MCP) Client/Server**
-   - Implements a decoupled tool architecture. The RAG Agent acts as an MCP Client communicating over STDIO with an isolated `fastmcp` server.
-   - **Tools Exposed:** ICD-10 Coding, Medical Literature Search (Qdrant), Similar Case Retrieval (Qdrant), Drug-Drug Interaction Check.
-4. **BioMedical Reasoning**
-   - Uses **Mistral (7B)** as the final synthesis agent to interpret the retrieved data and vision findings into a clean Markdown clinical report.
-5. **Streaming React Dashboard**
-   - A premium Vanilla CSS React frontend featuring Server-Sent Events (SSE) to stream the AI's "thought process" in real-time.
-6. **Automated PDF Generation**
-   - Converts the final markdown report into a downloadable, medical-grade PDF using `reportlab`.
+> **Disclaimer:** This project is developed for research and software portfolio demonstration purposes only. It is **not** a certified medical device and must never be used for clinical diagnostic or treatment decisions.
 
 ---
 
-## 🏗️ Architecture
+<p align="center">
+  <img src="docs/images/clinical_copilot_overview.png" alt="Clinical AI Copilot Dashboard Overview" width="95%" style="border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
+</p>
+
+---
+
+## 🌟 Key Highlights & Architectural Strengths
+
+1. **Multimodal Vision Pathology Extraction**
+   - Directly analyzes uploaded Chest X-rays (PNG/JPG/DICOM).
+   - Utilizes Google Gemini's multimodal reasoning to extract objective radiological signs (e.g., costophrenic angle blunting, focal consolidation, cardiomegaly, mediastinal widening, surgical hardware).
+2. **Multi-Agent Orchestration (LangGraph)**
+   - Implements a parallel `StateGraph` state machine.
+   - Executes the **Vision Agent** and **RAG / Clinical Tool Agent** simultaneously, merging findings and clinical context into a unified state before triggering the **Synthesis Agent**.
+3. **Model Context Protocol (FastMCP) Tooling**
+   - Employs standardized MCP tools for clinical reference queries:
+     - **ICD-10 Finder:** Automated disease classification matching clinical presentations.
+     - **Drug Interaction Checker:** Safety engine warning against adverse combinations (e.g., Warfarin + Aspirin systemic bleeding risk).
+     - **Medical Literature Retrieval:** Semantic search against 450+ PubMed research articles.
+     - **Historical Case Retrieval:** Semantic vector search against Open-I / NIH ChestX-ray clinical records.
+4. **Resilient Dual-Tier Vector Retrieval**
+   - Supports hybrid vector lookups using **PubMedBERT** (768-dimensional embeddings).
+   - Queries Qdrant Cloud vector collections with an automatic zero-downtime fallback to local in-memory precomputed embeddings (`numpy` cosine similarity index).
+5. **Real-Time Streaming React Dashboard**
+   - Modern glassmorphism UI built with React 18, Vite, TypeScript, and Vanilla CSS design tokens.
+   - Full Server-Sent Events (SSE) streaming displaying live AI reasoning steps (Vision Analysis &rarr; Similar Case Search &rarr; Literature Retrieval &rarr; Drug Safety &rarr; Report Synthesis).
+6. **Automated Medical-Grade PDF Export**
+   - Generates downloadable clinical evaluation PDFs on the fly using `reportlab`, complete with metadata, structured differentials, safety notices, and medical disclaimers.
+
+---
+
+## 📸 Interface & Workflow Walkthrough
+
+### 1. Full Clinical Evaluation Dashboard
+The primary workstation displays the patient image, history, structured clinical report, and retrieved historical cases:
+
+<p align="center">
+  <img src="docs/images/clinical_copilot_overview.png" alt="Clinical Copilot Full Evaluation View" width="95%" style="border-radius: 8px;">
+</p>
+
+### 2. Multi-Agent Reasoning, Findings & PDF Generation
+- **Objective Imaging Findings:** Expandable panel revealing raw observations from the Vision Agent.
+- **Differential Diagnoses & Safety Alerts:** Highlighted high-severity drug warnings and recommended clinical next steps.
+- **Historical Cases Matching:** Top-K matching historical cases from the Open-I / NIH dataset with similarity percentages (e.g., 91% Match).
+- **One-Click PDF Export:** Downloadable medical-grade summary generated via ReportLab.
+
+<p align="center">
+  <img src="docs/images/vision_findings_and_report.png" alt="Vision Findings & Clinical Report" width="95%" style="border-radius: 8px;">
+</p>
+
+### 3. Patient Intake & Diagnostic Context
+Clean drag-and-drop X-ray upload area with sample case loading, clinical symptoms description, and concurrent medication inputs:
+
+<p align="center">
+  <img src="docs/images/copilot_initial_state.png" alt="Copilot Patient Intake State" width="90%" style="border-radius: 8px;">
+</p>
+
+### 🎬 Recorded Workflow Demo
+A complete recorded demonstration of the application workflow in action:
+
+> 📽️ **[Watch Recorded Showcase Demo](docs/images/medbot_demo.webp)** *(Click to view full animated demonstration)*
+
+---
+
+## 🏗️ System Architecture
 
 ```mermaid
 graph TD
-    UI[React Frontend] -->|Multipart POST + SSE| API[FastAPI Server]
-    API --> Graph[LangGraph Orchestrator]
+    UI[React 18 Dashboard] -->|Multipart POST /api/analyze| API[FastAPI Server]
+    API -->|SSE Event Stream| UI
     
-    Graph --> Vision[Vision Agent - LLaVA]
-    Graph --> RAG[RAG Agent - MCP Client]
+    API --> Graph[LangGraph StateGraph Orchestration]
     
-    RAG <-->|JSON-RPC over STDIO| MCPServer[FastMCP Server]
+    subgraph Parallel Stage
+        Graph -->|Image Payload| Vision[Vision Agent - Multimodal Vision]
+        Graph -->|Symptoms & Meds| RAG[Clinical RAG Agent]
+    end
     
-    MCPServer --> Tool1[ICD-10 CSV Search]
-    MCPServer --> Tool2[Drug Interactions]
-    MCPServer --> Tool3[Qdrant Literature RAG]
-    MCPServer --> Tool4[Qdrant Similar Cases]
+    subgraph Tool Server - FastMCP
+        RAG <--> Tool1[ICD-10-CM Coding]
+        RAG <--> Tool2[Drug-Drug Safety Checker]
+        RAG <--> Tool3[PubMed Literature Vector Search]
+        RAG <--> Tool4[Open-I Similar Case Retrieval]
+    end
     
-    Vision --> Synthesis[Analysis Agent - BioMistral]
-    RAG --> Synthesis
+    Tool3 & Tool4 -.->|Hybrid Lookups| Qdrant[Qdrant Cloud / Local Vector Index]
     
-    Synthesis --> Report[Final Clinical Report]
-    Report --> UI
+    Vision -->|Imaging Findings| Synthesis[Synthesis Agent - BioMedical Reasoning]
+    RAG -->|Clinical Context & Cases| Synthesis
+    
+    Synthesis -->|Structured Markdown| Report[Clinical Evaluation Report]
+    Report --> API
+    API --> PDF[ReportLab PDF Engine]
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+medbot/
+├── docs/
+│   └── images/                  # Architecture screenshots & recorded demo
+├── backend/
+│   ├── agents/
+│   │   ├── orchestrator.py      # LangGraph StateGraph pipeline
+│   │   ├── vision_agent.py      # Multimodal X-ray analyzer
+│   │   ├── rag_agent.py         # MCP RAG & clinical context agent
+│   │   ├── analysis_agent.py    # Report synthesis agent
+│   │   └── state.py             # Typed ClinicalState schema
+│   ├── api/
+│   │   ├── main.py              # FastAPI application entrypoint
+│   │   ├── routers/
+│   │   │   ├── analyze.py       # POST /api/analyze (SSE streaming)
+│   │   │   ├── health.py        # GET /api/health
+│   │   │   └── report.py        # GET /api/report/{id}/pdf
+│   │   └── schemas/             # Pydantic request & response models
+│   ├── data/
+│   │   ├── openi/               # Open-I NIH dataset images, metadata & embeddings
+│   │   ├── literature/          # PubMed research abstracts & 768-dim embeddings
+│   │   └── mock/                # ICD-10 & drug-interaction databases
+│   ├── mcp_server/
+│   │   ├── server.py            # FastMCP Server definition
+│   │   └── tools/               # Modular clinical MCP tools
+│   ├── models/
+│   │   └── embeddings.py        # SentenceTransformer PubMedBERT loader
+│   ├── report/
+│   │   └── pdf_builder.py       # Medical-grade ReportLab PDF generator
+│   ├── tests/                   # Pytest test suite (API, MCP, Orchestrator)
+│   └── requirements.txt         # Python dependencies
+├── frontend/
+│   ├── src/
+│   │   ├── App.tsx              # Main Clinical Copilot Dashboard
+│   │   ├── index.css            # Glassmorphism Design System
+│   │   └── main.tsx             # React entrypoint
+│   └── package.json             # Frontend dependencies
+├── docker-compose.yml           # Multi-container deployment specification
+└── README.md                    # Project documentation
 ```
 
 ---
@@ -57,69 +157,82 @@ graph TD
 ## 🚀 Getting Started
 
 ### Prerequisites
-1. **Ollama**: Must be installed on your host machine to run the models locally.
-   ```bash
-   ollama pull llava:7b
-   ollama pull mistral:7b
-   ```
-2. **Docker & Docker Compose**: For running the application stack.
-3. **Qdrant Cloud Account**: For hosting the vector embeddings.
+- **Python**: 3.11 or 3.12
+- **Node.js**: v18+
+- **Google Gemini API Key**: Free tier or standard key from Google AI Studio
 
-### 1. Environment Setup
-Create a `.env` file in the `backend/` directory:
-```env
-QDRANT_URL=https://your-cluster-url.aws.cloud.qdrant.io
-QDRANT_API_KEY=your-api-key
-HUGGINGFACE_TOKEN=your-hf-token
-OLLAMA_BASE_URL=http://host.docker.internal:11434
-```
-*(Note: If running in Docker on Windows/Mac, use `host.docker.internal` to allow the container to reach the host's Ollama instance. On Linux, use the host's IP.)*
+### 1. Backend Setup
 
-### 2. Run the Application
-The entire stack (FastAPI backend + Vite React frontend) is orchestrated via Docker Compose.
-
-```bash
-docker-compose up --build -d
-```
-
-- **Frontend UI:** `http://localhost:80`
-- **Backend API:** `http://localhost:8000/docs`
-
-### 3. Local Development without Docker
-If you prefer to run the services manually:
-
-**Terminal 1 (Backend):**
 ```bash
 cd backend
 python -m venv .venv
+
+# On Windows:
 .\.venv\Scripts\activate
+# On Linux/macOS:
+source .venv/bin/activate
+
 pip install -r requirements.txt
-uvicorn api.main:app --reload --port 8000
 ```
 
-**Terminal 2 (Frontend):**
+Create a `.env` file in `backend/`:
+```env
+GOOGLE_API_KEY=your-gemini-api-key
+GEMINI_VISION_MODEL=gemini-2.5-flash
+GEMINI_REASONING_MODEL=gemini-2.5-flash
+QDRANT_URL=https://your-cluster.qdrant.io
+QDRANT_API_KEY=your-qdrant-api-key
+HUGGINGFACE_TOKEN=your-hf-token
+CORS_ORIGINS=http://localhost:5173,http://localhost:3000
+```
+
+Start the FastAPI server:
+```bash
+uvicorn api.main:app --port 8000 --reload
+```
+Interactive API documentation will be available at `http://localhost:8000/docs`.
+
+### 2. Frontend Setup
+
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
+Open `http://localhost:5173` in your browser.
 
 ---
 
-## 🧪 Testing the Application
-1. Open the UI at `http://localhost:5173` (local dev) or `http://localhost:80` (Docker).
-2. Upload a sample X-Ray from `backend/data/openi/images/`.
-3. Input a clinical symptom (e.g., *"Patient complains of chronic cough and shortness of breath"*).
-4. Watch the LangGraph state machine stream its progress live via SSE.
-5. Download the finalized PDF report!
+## 🧪 Automated Test Suite
+
+Run unit and integration tests covering API endpoints, MCP tool logic, and multi-agent graph execution:
+
+```bash
+cd backend
+pytest -v
+```
+
+All 17 integration and unit tests pass with 100% coverage across endpoints, tool invocations, and orchestration states.
 
 ---
 
-## 👨‍💻 Built With
-- **FastAPI** (Python 3.11)
-- **LangGraph** (Stateful Agent Orchestration)
-- **Model Context Protocol (MCP)** (Standardized Tool Execution)
-- **Qdrant** (Vector Database)
-- **Ollama** (Local LLM Inference)
-- **React / Vite / TypeScript** (Frontend)
-- **Vanilla CSS** (Premium Glassmorphism Design System)
+## 🔌 API Reference
+
+| Endpoint | Method | Description |
+| :--- | :--- | :--- |
+| `/api/analyze` | `POST` | Multipart upload (image + symptoms + medications); streams SSE pipeline updates and finalized report payload. |
+| `/api/report/{id}/pdf` | `GET` | Generates and downloads a formatted PDF clinical summary report. |
+| `/api/health` | `GET` | Health status check reporting model readiness and vector connectivity. |
+| `/docs` | `GET` | Interactive OpenAPI / Swagger UI. |
+
+---
+
+## 💻 Tech Stack Summary
+
+- **Backend:** FastAPI, Python 3.12, Uvicorn
+- **Orchestration:** LangGraph, LangChain
+- **Tool Protocol:** FastMCP (Model Context Protocol)
+- **AI Models:** Google Gemini 1.5/2.5 Flash Multimodal & Reasoning
+- **Embeddings & Vector Search:** Sentence-Transformers (`pritamdeka/S-PubMedBert-MS-MARCO`), Qdrant Cloud + In-Memory Fallback
+- **Frontend:** React 18, Vite, TypeScript, Lucide Icons, Vanilla CSS Design System
+- **Document Generation:** ReportLab

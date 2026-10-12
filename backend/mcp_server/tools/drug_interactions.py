@@ -1,9 +1,9 @@
 import csv
 from typing import List
 from pathlib import Path
-from mcp_server.server import mcp
 
-@mcp.tool()
+
+
 def check_drug_interactions(medications: List[str]) -> str:
     """
     Check for known interactions between a list of medications.

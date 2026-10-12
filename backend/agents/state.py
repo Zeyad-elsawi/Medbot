@@ -8,6 +8,14 @@ from typing import TypedDict, Annotated, List, Optional
 import operator
 
 
+def merge_errors(left: Optional[str], right: Optional[str]) -> Optional[str]:
+    if not left:
+        return right
+    if not right:
+        return left
+    return left + " | " + right
+
+
 class ClinicalState(TypedDict):
     """
     Shared state for the LangGraph clinical analysis pipeline.
@@ -50,4 +58,4 @@ class ClinicalState(TypedDict):
     # ── Control ───────────────────────────────────────────────────────────────
     # Annotated with operator.add so messages accumulate across parallel nodes
     messages: Annotated[List[str], operator.add]
-    error: Optional[str]          # Set if any node fails — pipeline routes to error handler
+    error: Annotated[Optional[str], merge_errors] # Set if any node fails — pipeline routes to error handler

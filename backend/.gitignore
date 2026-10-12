@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+*.env.local
+
+# Build artifacts
+dist/
+build/
+*.so
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Data & models (large files, not needed for the Space)
+data/
+*.dcm
+*.dicom
+*.npy
+*.h5
+*.pt
+*.ckpt

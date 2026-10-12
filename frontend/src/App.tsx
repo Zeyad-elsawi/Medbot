@@ -32,6 +32,17 @@ export default function App() {
     }
   };
 
+  const loadSample = async () => {
+    const res = await fetch('/samples/sample_cxr.png');
+    const blob = await res.blob();
+    const sample = new File([blob], 'sample_cxr.png', { type: 'image/png' });
+    setFile(sample);
+    setPreview(URL.createObjectURL(sample));
+    setSymptoms('65 year old male with chronic cough and shortness of breath for two weeks, mild fever');
+    setMedications('Aspirin, Warfarin');
+    setError(null);
+  };
+
   const startAnalysis = async (e: FormEvent) => {
     e.preventDefault();
     if (!file || !symptoms) {
@@ -131,6 +142,15 @@ export default function App() {
                 <Upload size={20} color="var(--primary)" /> 
                 1. Upload X-Ray
               </h3>
+              
+              <button
+                type="button"
+                id="load-sample-btn"
+                onClick={loadSample}
+                style={{ marginBottom: '12px', background: 'transparent', color: 'var(--primary)', border: '1px dashed var(--primary)', borderRadius: '8px', padding: '8px 14px', cursor: 'pointer', width: '100%' }}
+              >
+                Load sample case (X-ray + symptoms)
+              </button>
               
               <div 
                 className={`drop-zone ${preview ? 'active' : ''}`}
@@ -250,6 +270,28 @@ export default function App() {
 
             {reportData && (
               <div className="fade-in markdown-content" style={{ flex: 1, overflowY: 'auto' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', alignItems: 'center', marginBottom: '20px' }}>
+                  <span className="badge info">Confidence: {reportData.confidence_level}</span>
+                  {(reportData.icd10_codes || []).map((c: string, i: number) => (
+                    <span key={i} className="badge success" title={c}>ICD-10: {String(c).slice(0, 60)}</span>
+                  ))}
+                  <a
+                    href={`${import.meta.env.VITE_API_URL || ''}${reportData.pdf_download_url}`}
+                    className="btn-primary"
+                    style={{ marginLeft: 'auto', padding: '8px 16px', fontSize: '0.9rem', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '6px' }}
+                    download
+                  >
+                    <FileText size={16} /> Download PDF
+                  </a>
+                </div>
+                {reportData.imaging_findings && reportData.imaging_findings !== 'No findings.' && (
+                  <details style={{ marginBottom: '20px', background: 'rgba(0,0,0,0.25)', padding: '12px 16px', borderRadius: '8px', border: '1px solid var(--glass-border)' }}>
+                    <summary style={{ cursor: 'pointer', color: 'var(--primary)' }}>Vision Agent – Raw Imaging Findings</summary>
+                    <div style={{ marginTop: '12px', fontSize: '0.9rem' }}>
+                      <ReactMarkdown>{String(reportData.imaging_findings)}</ReactMarkdown>
+                    </div>
+                  </details>
+                )}
                 <ReactMarkdown>{reportData.full_markdown_report || "No markdown report generated."}</ReactMarkdown>
                 
                 <hr style={{ border: 'none', borderTop: '1px solid var(--glass-border)', margin: '32px 0' }} />
@@ -263,12 +305,24 @@ export default function App() {
           {/* Similar Cases Panel */}
           {reportData && reportData.similar_cases && reportData.similar_cases.length > 0 && (
             <div className="glass-panel fade-in" style={{ padding: '24px' }}>
-              <h3 style={{ marginBottom: '16px', fontSize: '1.1rem' }}>Historical Similar Cases</h3>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px' }}>
+              <h3 style={{ marginBottom: '16px', fontSize: '1.1rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <Activity size={18} color="var(--primary)" /> Historical Similar Cases (Open-I / NIH RAG)
+              </h3>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '16px' }}>
                 {reportData.similar_cases.map((sc: any, idx: number) => (
-                  <div key={idx} style={{ background: 'rgba(0,0,0,0.3)', padding: '16px', borderRadius: '8px', border: '1px solid var(--glass-border)' }}>
-                    <div className="badge info" style={{ marginBottom: '8px' }}>Case {idx + 1}</div>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>{sc.description.slice(0, 100)}...</p>
+                  <div key={idx} style={{ background: 'rgba(0,0,0,0.35)', padding: '16px', borderRadius: '8px', border: '1px solid var(--glass-border)' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+                      <span className="badge info">{sc.case_id || `Case ${idx + 1}`}</span>
+                      <span style={{ fontSize: '0.8rem', color: 'var(--primary)', fontFamily: 'var(--font-mono)' }}>
+                        {Math.round((sc.similarity_score || 0.85) * 100)}% Match
+                      </span>
+                    </div>
+                    <p style={{ fontWeight: 600, fontSize: '0.88rem', marginBottom: '6px' }}>
+                      {sc.diagnosis || 'Clinical Case'}
+                    </p>
+                    <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                      {(sc.key_findings || sc.description || '').slice(0, 120)}...
+                    </p>
                   </div>
                 ))}
               </div>

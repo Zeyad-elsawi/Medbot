@@ -33,8 +33,8 @@ class Settings(BaseSettings):
 
     # ── Google Gemini ────────────────────────────────────────────────────────
     google_api_key: str
-    gemini_vision_model: str = "gemini-1.5-flash"
-    gemini_reasoning_model: str = "gemini-1.5-flash"
+    gemini_vision_model: str = "gemini-3.5-flash"
+    gemini_reasoning_model: str = "gemini-3.5-flash"
 
     # ── Embedding Models ─────────────────────────────────────────────────────
     pubmedbert_model: str = "pritamdeka/S-PubMedBert-MS-MARCO"

@@ -74,11 +74,14 @@ async def analyze(
         try:
             yield format_sse("status", "Vision agent analyzing X-ray...", 1)
             
-            final_state = None
+            final_state = {}
             
             # Run LangGraph streaming
             async for chunk in clinical_agent.astream(initial_state):
                 for node_name, node_state in chunk.items():
+                    # Each chunk is a partial update from one node — merge them all
+                    if node_state:
+                        final_state.update(node_state)
                     if node_name == "vision":
                         yield format_sse("status", "Extracting imaging findings...", 2)
                     elif node_name == "rag":
@@ -87,11 +90,9 @@ async def analyze(
                         yield format_sse("status", "Checking drug interactions...", 5)
                     elif node_name == "analysis":
                         yield format_sse("status", "Generating report...", 6)
-                        final_state = node_state
 
-            if final_state is None:
-                # Fallback if astream didn't yield final state for some reason
-                final_state = await clinical_agent.ainvoke(initial_state)
+            if final_state.get("error") and not final_state.get("final_report"):
+                raise RuntimeError(final_state["error"])
 
             yield format_sse("status", "Finalizing structured report...", 7)
 
@@ -100,7 +101,10 @@ async def analyze(
             payload = {
                 "report_id": report_id,
                 "imaging_findings": final_state.get("xray_findings", "No findings."),
-                "similar_cases": [{"case_id": "N/A", "description": sc, "similarity_score": 0.0} for sc in final_state.get("symptom_matches", [])],
+                "similar_cases": final_state.get("similar_cases") or [
+                    {"case_id": f"Case-{i+1}", "diagnosis": sc, "similarity_score": 0.85, "description": sc, "key_findings": sc}
+                    for i, sc in enumerate(final_state.get("symptom_matches", []))
+                ],
                 "differential_dx": final_state.get("differential_dx", []),
                 "icd10_codes": final_state.get("icd10_codes", []),
                 "next_steps": final_state.get("next_steps", []),

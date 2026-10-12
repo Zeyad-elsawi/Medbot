@@ -1,8 +1,8 @@
 import csv
 from pathlib import Path
-from mcp_server.server import mcp
 
-@mcp.tool()
+
+
 def find_icd10_code(diagnosis_description: str) -> str:
     """
     Find the ICD-10-CM classification code for a diagnosis description.
