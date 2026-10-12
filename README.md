@@ -12,9 +12,30 @@ An end-to-end multimodal clinical decision-support copilot designed for physicia
 
 ---
 
-<p align="center">
-  <img src="docs/images/clinical_copilot_overview.png" alt="Clinical AI Copilot Dashboard Overview" width="95%" style="border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);">
-</p>
+## 🎬 Live Product Demonstration
+
+![Clinical AI Copilot Live Demo](./docs/images/medbot_demo.webp)
+
+*Complete end-to-end evaluation: 1-click sample intake, parallel multimodal radiographic analysis, MCP PubMed/Open-I retrieval, ICD-10 codification, and automated PDF export.*
+
+---
+
+## 📸 Screenshots & Workflow Walkthrough
+
+### 1. Full Clinical Copilot Dashboard
+The primary evaluation workstation displaying patient imaging, live SSE agent reasoning, structured differential report, and historical case matches:
+
+![Clinical Copilot Overview](./docs/images/clinical_copilot_overview.png)
+
+### 2. Multi-Agent Reasoning, Findings & ReportLab PDF Export
+Detailed objective imaging findings from the Vision Agent, drug-drug safety warnings, ICD-10 diagnostic chips, and 1-click clinical PDF download:
+
+![Vision Findings and Report](./docs/images/vision_findings_and_report.png)
+
+### 3. Patient Intake & Diagnostic Context
+Clean intake UI featuring drag-and-drop Chest X-ray upload, 1-click pre-populated sample case, clinical symptoms input, and medication safety monitoring:
+
+![Patient Intake State](./docs/images/copilot_initial_state.png)
 
 ---
 
@@ -40,39 +61,6 @@ An end-to-end multimodal clinical decision-support copilot designed for physicia
    - Full Server-Sent Events (SSE) streaming displaying live AI reasoning steps (Vision Analysis &rarr; Similar Case Search &rarr; Literature Retrieval &rarr; Drug Safety &rarr; Report Synthesis).
 6. **Automated Medical-Grade PDF Export**
    - Generates downloadable clinical evaluation PDFs on the fly using `reportlab`, complete with metadata, structured differentials, safety notices, and medical disclaimers.
-
----
-
-## 📸 Interface & Workflow Walkthrough
-
-### 1. Full Clinical Evaluation Dashboard
-The primary workstation displays the patient image, history, structured clinical report, and retrieved historical cases:
-
-<p align="center">
-  <img src="docs/images/clinical_copilot_overview.png" alt="Clinical Copilot Full Evaluation View" width="95%" style="border-radius: 8px;">
-</p>
-
-### 2. Multi-Agent Reasoning, Findings & PDF Generation
-- **Objective Imaging Findings:** Expandable panel revealing raw observations from the Vision Agent.
-- **Differential Diagnoses & Safety Alerts:** Highlighted high-severity drug warnings and recommended clinical next steps.
-- **Historical Cases Matching:** Top-K matching historical cases from the Open-I / NIH dataset with similarity percentages (e.g., 91% Match).
-- **One-Click PDF Export:** Downloadable medical-grade summary generated via ReportLab.
-
-<p align="center">
-  <img src="docs/images/vision_findings_and_report.png" alt="Vision Findings & Clinical Report" width="95%" style="border-radius: 8px;">
-</p>
-
-### 3. Patient Intake & Diagnostic Context
-Clean drag-and-drop X-ray upload area with sample case loading, clinical symptoms description, and concurrent medication inputs:
-
-<p align="center">
-  <img src="docs/images/copilot_initial_state.png" alt="Copilot Patient Intake State" width="90%" style="border-radius: 8px;">
-</p>
-
-### 🎬 Recorded Workflow Demo
-A complete recorded demonstration of the application workflow in action:
-
-> 📽️ **[Watch Recorded Showcase Demo](docs/images/medbot_demo.webp)** *(Click to view full animated demonstration)*
 
 ---
 
